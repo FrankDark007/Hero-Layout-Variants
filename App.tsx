@@ -3,6 +3,11 @@ import HeroSplit from './components/HeroSplit';
 import HeroCentered from './components/HeroCentered';
 import HeroVideo from './components/HeroVideo';
 import HeroCard from './components/HeroCard';
+import HeroMagazine from './components/HeroMagazine';
+import HeroDashboard from './components/HeroDashboard';
+import HeroTestimonial from './components/HeroTestimonial';
+import HeroComparison from './components/HeroComparison';
+import HeroInteractive from './components/HeroInteractive';
 import { Eye, Layout } from 'lucide-react';
 
 const App: React.FC = () => {
@@ -13,6 +18,11 @@ const App: React.FC = () => {
     { name: 'Centered Hero', component: <HeroCentered /> },
     { name: 'Video Hero', component: <HeroVideo /> },
     { name: 'Card Hero', component: <HeroCard /> },
+    { name: 'Magazine', component: <HeroMagazine /> },
+    { name: 'Dashboard', component: <HeroDashboard /> },
+    { name: 'Testimonial', component: <HeroTestimonial /> },
+    { name: 'Comparison', component: <HeroComparison /> },
+    { name: 'Interactive', component: <HeroInteractive /> },
   ];
 
   return (
